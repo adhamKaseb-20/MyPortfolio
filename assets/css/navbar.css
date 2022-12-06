@@ -45,22 +45,3 @@
 .navbar .nav-link.active {
     color: var(--color-brand);
 }
-
-.navbar .hoverimage{
-    position: absolute;
-    top: -100%;
-    left: 0;
-    transition: all 0.5s ease !important;
-    width: 240px;
-    height: 240px;
-    background-image: url(../images/try.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 1!important;
-}
-
-.navbar:hover .hoverimage {
-    top: -50px;
-}
-
