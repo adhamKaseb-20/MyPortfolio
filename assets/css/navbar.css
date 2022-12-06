@@ -1,0 +1,66 @@
+:root {
+    --color-body: #b6cbce;
+    --color-heading: #fff;
+    --color-base: rgba(255, 255, 255, 0.1)!important;
+    --color-base2: #000!important;
+    --color-brand: #00C4F6!important;
+    --color-brand2: #deff58;
+    --sidbar-width: 240px;
+    --font-base: "Bai Jamjuree";
+}
+
+@media (min-width:992px) {
+    .navbar {
+        width: var(--sidbar-width);
+        min-height: 100vh;
+        background: linear-gradient(#fff,rgba(255, 255, 255, 0.257)), url(../images/choosen.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .navbar .nav-link:hover {
+        color: #b6cbce!important;
+        letter-spacing: 2px;
+    }
+}
+
+.navbar .nav-link {
+    font-weight: 700!important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff!important;
+}
+
+.navbar .nav-link:hover {
+    color: #ffffff7c!important;
+    letter-spacing: 2px;
+    font-size: larger;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.85)!important;
+    position: relative;
+}
+
+.navbar .nav-link.active {
+    color: var(--color-brand);
+}
+
+.navbar .hoverimage{
+    position: absolute;
+    top: -100%;
+    left: 0;
+    transition: all 0.5s ease !important;
+    width: 240px;
+    height: 240px;
+    background-image: url(../images/try.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1!important;
+}
+
+.navbar:hover .hoverimage {
+    top: -50px;
+}
+

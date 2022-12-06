@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+:root {
+    --color-body: #b6cbce;
+    --color-heading: #fff;
+    --color-base: rgba(255, 255, 255, 0.1)!important;
+    --color-base2: #000!important;
+    --color-brand: #00C4F6!important;
+    --color-brand2: #deff58;
+    --sidbar-width: 240px;
+    --font-base: "Bai Jamjuree";
+}
+
+body {
+    background-color: var(--color-base2)!important;                                                                                                                                                                                                                                                                                                               
+    color: var(--color-body)!important;
+    font-family: var(--font-base), sans-serif!important;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--color-heading)!important;
+    font-weight: 700!important;
+    margin: 0!important;
+}
+
+a {
+    text-decoration: none!important;
+    color: var(--color-body)!important;
+    transition: all 0.3s ease!important;
+    margin: 0!important;
+}
+
+*::selection {
+    color: #00C4F6;
+}
+a:hover {color: var(--color-brand)!important;}
+img {width: 100%!important;}
+.text-brand {color: var(--color-brand)!important;}
+.bg-base {background-color: var(--color-base)!important;}
+.shadow-effect {transition: all 0.4s!important;}
+.shadow-effect:hover {box-shadow: -6px 6px 0 0 var(--color-brand); transform: translateY(-5px)!important;}
+i{color: black!important;}
+.p {
+    font-weight: 700!important;
+}
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255,255,255, 0.1);
+}
+
+.iconbox {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: var(--color-brand)!important;
+    color: var(--color-base)!important;
+}
+

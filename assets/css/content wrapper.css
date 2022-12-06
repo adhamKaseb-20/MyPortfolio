@@ -1,0 +1,15 @@
+:root {
+    --color-body: #b6cbce;
+    --color-heading: #fff;
+    --color-base: rgba(255, 255, 255, 0.1)!important;
+    --color-base2: #000!important;
+    --color-brand: #00C4F6!important;
+    --color-brand2: #deff58;
+    --sidbar-width: 240px;
+    --font-base: "Bai Jamjuree";
+}
+
+@media (max-width: 992px) {#content-wrapper {padding-left: 0px!important;}}
+#content-wrapper {padding-left: var(--sidbar-width);}
+.btn {font-weight: 700!important;}
+
